@@ -2,10 +2,14 @@ import random
 import time
 import os
 
-possible_thinks = [("As redes sociais deixaram os homens obcecados por mulheres que nem \n"
-            "sequer conhecem, e as mulheres exigindo um estilo de vida que jamais\n "
-            "vivenciaram de fato. Todos perseguem fantasias vazias, destruindo o \n"
-            "que poderiam realmente ter em nome de algo passageiro."), "o direito de participar de decisões coletivas \ndeveria depender de uma demonstração\n mínima de competência cívica"]
+possible_thinks = [
+    ("As redes sociais deixaram os homens obcecados por mulheres que nem \n"
+    "sequer conhecem, e as mulheres exigindo um estilo de vida que jamais\n "
+    "vivenciaram de fato. Todos perseguem fantasias vazias, destruindo o \n"
+    "que poderiam realmente ter em nome de algo passageiro."),
+    ("O direito de participar de decisões coletivas \n"
+     "deveria depender de uma demonstração\n "
+     "mínima de competência cívica")]
 
 if __name__ == '__main__':
     text = str(possible_thinks[random.randint(0, len(possible_thinks))])
