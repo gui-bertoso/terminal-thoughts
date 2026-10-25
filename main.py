@@ -24,6 +24,24 @@ possible_thinks = [
         "and effort only comes from one side,\n"
         "it's no longer about time.\n"
         "It's about priority."
+    ),
+    (
+        "It's strange how the same people who preach\n"
+        "equality, tolerance, and acceptance can become\n"
+        "the worst ones the moment you show even\n"
+        "the slightest difference in opinion.\n"
+        "They talk about respect, but many of them\n"
+        "only seem to respect you as long as\n"
+        "you think exactly like them."
+    ),
+    (
+        "Why are people always trying to divide\n"
+        "themselves into groups, labels, and opposing sides?\n"
+        "We are all human.\n"
+        "Your skin color, gender, sexuality, or beliefs\n"
+        "should not define your worth.\n"
+        "In the end, people constantly ask for acceptance,\n"
+        "yet so few truly know how to accept each other."
     )
 ]
 
