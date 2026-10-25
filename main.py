@@ -3,13 +3,29 @@ import time
 import os
 
 possible_thinks = [
-    ("As redes sociais deixaram os homens obcecados por mulheres que nem \n"
-    "sequer conhecem, e as mulheres exigindo um estilo de vida que jamais\n "
-    "vivenciaram de fato. Todos perseguem fantasias vazias, destruindo o \n"
-    "que poderiam realmente ter em nome de algo passageiro."),
-    ("O direito de participar de decisões coletivas \n"
-     "deveria depender de uma demonstração\n "
-     "mínima de competência cívica")]
+    (
+        "Social media has made men obsessed with women\n"
+        "they have never even met, while women demand\n"
+        "lifestyles they have never truly experienced.\n"
+        "Everyone is chasing empty fantasies,\n"
+        "destroying what they could actually have\n"
+        "in pursuit of something temporary."
+    ),
+    (
+        "The right to participate in collective\n"
+        "decisions should depend on demonstrating\n"
+        "a minimum level of civic competence."
+    ),
+    (
+        "I've learned that being busy doesn't\n"
+        "necessarily mean being indifferent.\n"
+        "Silence doesn't always mean a lack of care.\n"
+        "But when silence becomes a pattern,\n"
+        "and effort only comes from one side,\n"
+        "it's no longer about time.\n"
+        "It's about priority."
+    )
+]
 
 if __name__ == '__main__':
     text = str(possible_thinks[random.randint(0, len(possible_thinks))])
